@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+body{
+  overflow-x: hidden;
+  font-family: 'Lato',sans-serif;
+  color:#505962;
+}
+/*---Navigation Style--*/
+.navbar-brand img{
+  height: 2rem;
+}
+.navbar{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background: #067D12!important;
+}
+.navbar-nav li{
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 10px;
+  background: black;
+}
+.navbar-dark .navbar-nav .nav-link{
+  color: white;
+}
+/*---End Navigation Style--*/
+
+/*---Boxsize for Content--*/
+.narrow{
+  height: 75%;
+  margin: 1.5rem auto;
+  padding-top: 2rem;
+}
+/*---End Boxsize for Content--*/
+
+/*---Jumbotron Style--*/
+.jumbotron{
+  margin-bottom: 0;
+  padding: 2rem 0 1rem;
+  border-radius: 0;
+}
+.heading-underline{
+  width: 3rem;
+  height: 0.2rem;
+  background-color: #067D12;
+  margin: 0 auto 2rem;
+}
+h3.heading{
+    text-transform: uppercase;
+    font-size: 1.9rem;
+    font-weight: 700;
+    margin-bottom: 1.9rem;
+    text-align: center;
+}
+/*---End Jumbtron Style--*/
+
+/*---Footer Style--*/
+footer{
+    background-color: #067D12;
+    color: white;
+    padding: 2rem 0 2rem;
+}
+footer img{
+    height: 3rem;
+    margin: 1.5rem 0;
+}
+footer a{
+    color: white;
+}
+footer .fab{
+    font-size: 1.6rem;
+    margin: 1.2rem .5rem 0 0;
+}
+footer .fab:hover{
+    color: black !important;
+}
+.socket{
+    width: 100%;
+    border-top: .2rem solid white;
+    margin-top: 3rem;
+}
+/*---End Footer Style--*/
+
+/*---Carousel Style--*/
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+.carousel-inner {
+  max-height: 80vh;
+}
+.carousel{
+  margin-top: 59px;
+}
+/*---End Carousel Style--*/
+.artikel{
+  background: #E9ECEF;
+}
